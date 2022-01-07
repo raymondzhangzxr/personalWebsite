@@ -68,6 +68,10 @@ p{
     font-size:3rem;
     text-transform:uppercase;
     color:white;
+    text-align: center;
+}
+.brand h2{
+    text-align: center;
 }
 .brand h1 span{
     color:deepskyblue;
@@ -302,6 +306,8 @@ p{
     position: relative;
     z-index: 1;
     overflow: hidden;
+    height: 200px;
+    width: 300px;
 }
 #education .education-item::after{
     content:'';
@@ -311,15 +317,20 @@ p{
     height: 100%;
     width: 100%;
     background-image:linear-gradient(60deg,#29323c 0%,#485563 100%);
-    opacity:.7;
+    opacity:0.8;
     z-index: -1;
 
 }
-#education .education-bottom .icon{
+#education .education-item .icon{
+    
     height: 55px;
     width: 55px;
+    border-radius:10px;
     margin-bottom: 10px;
+    
+    
 }
+
 #education .education-item h2{
     font-size:2rem;
     font-weight:600;
@@ -332,7 +343,7 @@ p{
     color:white;
     margin-bottom:1px;
 }
-#education .education-item:nth-child(1){
+/* #education .education-item:nth-child(1){
     background-image:url(./img/AI1.jpeg);
 }
 #education .education-item:nth-child(2){
@@ -343,7 +354,7 @@ p{
 }
 #education .education-item:nth-child(4){
     background-image:url(./img/AI4.jpeg);
-}
+} */
 /* End of Education section */
 
 /* Project section */
@@ -526,6 +537,9 @@ p{
 #footer .social-icon{
     display: flex;
     margin-bottom:30px;
+    justify-content:center;
+    align-items:center;
+
 }
 #footer .social-item{
     height:50px;
