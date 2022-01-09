@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+    <!-- Header section -->
+    <section id = "header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1>Xiaorui Zhang</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero"  >Home</a></li>
+                        <li><a href="#education" >Education</a></li>
+                        <li><a href="#projects"  >Projects</a></li>
+                        <li><a href="#about"  >About</a></li>
+                        <li><a href="#contact" >Contact</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- end of header section -->
+    <!-- Cover Page Section -->
+    <section id = "hero">
+        <div class="hero container"> <!-- two classes, one hero, one container -->
+            <div>
+                <h1>Welcome,<span></span></h1>
+                <h1>My name is Xiaorui <span></span></h1>
+                <h1>People call me<span></span></h1>
+                <h1>Ray<span></span></h1>
+                
+                <!-- creat a botoom  -->
+                <a href="#projects" type = "button" class = "cta"> Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Cover Page Section -->
+
+    <!-- Education section -->
+    <section id="education">
+        <div class="education container">
+            <div class="education-top">
+                <h1 class="section-title">Educ<span>a</span>tion</h1>
+                <p>I grew up in Beijing, China, and went to Israel for college. 
+                    After four years of study at the best University in “the state of innovation,” 
+                    I got my BSc degree in Mechanical Engineering with a Summa Cum Laude honor. 
+                    At Technion, I laid a solid foundation in robotics design, control and dynamics.
+                     I am currently a full-time master student at Johns Hopkins University. 
+                     My study and research focus on medical robotics, computer vision, 
+                     and deep learning.  </p>
+            </div>
+            <div class="education-bottom">
+                <div class="education-item">
+                    <div class="icon"><img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-school-back-to-school-itim2101-flat-itim2101.png" alt="JHU"
+                        style="border-radius:3px;"></div>
+                <h2>Johns Hopkins University</h2>
+                <h3>Master of Science in Robotics</h3>
+                <h3><a href="educationpages/JHUpage.html">Leanr more</a></h3>
+                </div>
+                
+                <div class="education-item">
+                    <div class="icon"><img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-school-back-to-school-itim2101-flat-itim2101.png" alt="Technion"
+                        style="border-radius:3px;"></div>
+                <h2>Technion-Israel Institute of Technology</h2>
+                <h3>Bachlor of Science in Mechanical Engineering</h3>
+                <h3><a href="educationpages/techpage.html">Leanr more</a></h3>
+                </div>
+
+                <div class="education-item">
+                    <div class="icon"><img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-school-back-to-school-itim2101-flat-itim2101.png" alt="Bayi"
+                        style="border-radius:3px;"></div>
+                <h2>Beijing Bayi High School</h2>
+                <h3>Senior High School</h3>
+                </div>
+
+                <div class="education-item">
+                    <div class="icon"><img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-school-back-to-school-itim2101-flat-itim2101.png" alt="Shiyi"
+                    style="border-radius:3px;"></div>
+                <h2>Beijing National Day School</h2>
+                <h3>Junior High School</h3>
+                </div>
+        </div>
+    </section>
+    <!-- End Education section -->
+
+    <!-- project section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Pro<span>je</span>cts</h1>
+            </div>
+            
+            <div class="all-projects">
+                <!-- project1 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>ACDC Challenge</h1>
+                        <h2>Medical Image Analysis</h2>
+                        <p>In this project, we created an automatic pipeline consisting of segmentation 
+                            and cardiac disease classification to tackle the “Automatic Cardiac Diagnosis 
+                            Challenge” (ACDC) using the deep learning method. We evaluated the performance of 
+                            three UNet like models, and the best one was used to participate in the ACDC 
+                            segmentation challenge. Dynamic and instant features were extracted using the 
+                            segmentation result, and an ensemble of MLP and random forest classifiers were 
+                            trained to do the diagnosis challenge. 
+                        </p>
+                        <p><u>Click right image for more</u></p>
+
+                    </div>
+                    <div class="project-img">
+                        <a href="projectpages/ACDC.html">
+                            <img src="./img/AI.jpg" alt="AI2"/>
+                        </a>
+                    </div>
+                </div>
+                <!-- prject2 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Surgical Tool Tracking</h1>
+                        <h2>Computer Vision</h2>
+                        <p>In this project, I developed a surgical tool tracking software 
+                            to evaluate the tremor reduction in robotic micro laryngeal 
+                            surgical procedures on cadaveric phantoms. Using OpenCV CSRT 
+                            tracker, template matching and traditional image processing techniques, automated 
+                            tracking is achieved on surgical tools and background objects. </p>
+                            <p><u>More to come</u></p>
+                    </div>
+                    
+                    <div class="project-img">
+                        <img src="./img/AI.jpg" alt="AI">
+                    </div>
+                </div>
+                <!-- project3 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Automated COVID-19 Test Tube Organizer</h1>
+                        <h2>Robotics</h2>
+                        <p>In this project, I helped to create an automated COVID-19 test tube 
+                            sorting and organizing robot that effectively increased COVID-19
+                            testing speed at selected labs in Israel. I programmed Arduino and X-Y table 
+                            to send the tube tray to the right location, communicating and coordinating with the sorting
+                            mechanism to help putting the test tubes into desired rack locations.
+                            I helped to build the cutting mechanism that cut open the sealed packing bags of the tubes.</p>
+                            <p><u>More to come</u></p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/AI.jpg" alt="AI">
+                    </div>
+                </div>
+                <!-- project4 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Robotics Class Projects</h1>
+                        <h2>ROS Simulation</h2>
+                        <p>As a robotics major student, I am familiar with ROS environment, C++, and MATLAB.
+                             The class projects I have worked includes:
+                            <br>1. UR5 Move and place task with resolved-rate control.
+                            <br>2. UR5 Hand-eye calibration.
+                            <br>3. UR5 Probabilistic Road Map path planner for collision-free motions.
+                            <br>4. Use Extened Kalman Filter to estimate the location of a mobile robot
+                             on a simulated rugged terrain.(Gazebo enviroment)
+                             <br>5. Implement beam sensor model and odometry motion model of a particle filter. 
+                             (Simulation of a Husky robot being teleoperated in an outdoor enviroment) 
+                            
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/AI.jpg" alt="AI">
+                    </div>
+                </div>
+                <!-- project5 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Medical Robotics Class Project</h1>
+                        <h2>Medical robotics</h2>
+                        <p>In the class Computer Integrated Surgical, I had experience 
+                         with 3D calibration(Distortion Calibration, Pivot Calibration) and 
+                         3D registration (ICP) using electromagnetic tracking system, 
+                         and optical tracking system. 
+                         </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/AI.jpg" alt="AI">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end of project section -->
+
+    <!-- Start of aboutme section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left"> <!-- image -->
+                <div class="about-img">
+                    <img src="./img/me.jpeg" alt="me">
+                </div>
+            </div>
+            <div class="col-right"> <!-- text -->
+                <h1 class="section-title">About <span>me</span></h1>
+                <h2>Robotics Student</h2>
+                <p>I am a Robotics MSE student at Johns Hopkins University, with concentration 
+                    in Medical Robotics, Computer Vision and Machine Learning. I have always been keen into 
+                    robotics, getting involved in the significant era of robotics 
+                    and making my own contribution is a dream come true for me. </p>
+                <a href="Resume_Xiaorui-zhang.pdf" target="_blank" class="cta">Download Resume</a>
+            </div>
+            
+        </div>
+    </section>
+    <!-- End of aboutme section -->
+    <!-- Contact section -->
+        <section id="contact">
+            <div class="contact container">
+                <div><h1 class= "section-title">Con<span>t</span>act</h1></div>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="icon"><img src="https://img.icons8.com/color/48/000000/linkedin-2--v1.png"/></div>
+                        <div class="contact-info">
+                            <h1>Linkedin</h1>
+                            <h2><a href="https://linkedin.com/in/xiaorui-zhang-0802871a4">Go to my Linkedin page</a></h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><img src="https://img.icons8.com/external-sbts2018-blue-sbts2018/58/000000/external-email-social-media-basic-1-sbts2018-blue-sbts2018.png"/></div>
+                        <div class="contact-info">
+                            <h1>E-mail</h1>
+                            <h2>xzhan227@jhu.edu</h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><img src="https://img.icons8.com/ultraviolet/40/000000/address.png"/></div>
+                        <div class="contact-info">
+                            <h1>Address</h1>
+                            <h2>2001 West Cold Spring Lane,Baltimore,MD</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- end of contace section -->
+    <!-- footer section -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1>Xiaorui Zhang</h1>
+                <h2>We are all in the gutter, but some of us are looking at the stars.</h2>
+                <div class="social-icon">
+                    <!-- car -->
+                    <div class="social-item"> 
+                        <a href="hobbypages/car.html"><img src="https://img.icons8.com/fluency/48/000000/car.png"/></a>
+                    </div>
+                     <!-- dog -->
+                    <div class="social-item">
+                        <a href="hobbypages/dog.html"><img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/64/000000/external-dog-space-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="hobbypages/ski.html"><img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-snowboarder-sport-avatar-justicon-lineal-color-justicon.png"/></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="hobbypages/hike.html"><img src="https://img.icons8.com/external-tone-royyan-wijaya/64/000000/external-backpack-travel-tone-royyan-wijaya.png"/></a>
+                    </div>
+                </div>
+            </div>
+            <p>©2021 Xiaorui Zhang All rights reserved</p>
+        </div>
+    </section>
+    <!-- end footer -->
+    <script src="./app.js"></script>
+</body>
+</html>
